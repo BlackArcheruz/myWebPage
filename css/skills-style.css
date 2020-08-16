@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Main styling*/
+html, body{
+	font-family: sans-serif;
+	background-image: url(https://cdn.shopify.com/s/files/1/0250/5422/files/ios_linen_texture___black_by_vegardhw-d3ddll5_copy.jpg?2614);
+}
+#navbar a {
+	color: white;
+	text-decoration: none;
+}
+#navbar a:hover{
+	color: #DCDCDC;
+}
+#navbar a:active{
+	color: #000157;
+	background: #9E9E9E;
+	animation-name: none;
+	animation-delay: 500s;
+}
+
+h1,h2,h3{
+	padding-bottom: 20px;
+}
+#navbar{
+	background-color: #000000;
+	color: #FFFFFF;
+	overflow: auto;
+}
+#navbar h1{
+	float: left;
+	padding-top: 20px;	
+}
+#navbar ul{
+	float: right;
+	list-style: none;
+}
+#navbar ul li{
+	float: left;
+}
+#navbar ul li a{
+	display: inline-block;
+	padding: 25px;
+}
+#navbar ul li a:hover,#navbar ul li a.current{
+	background-color: #212121;
+}
+.container{
+	max-width: 1100px;
+	margin: auto;
+}
+.btn{
+	display: inline-block;
+	font-size: 18px;
+	color: #333;
+	background-color: #fff;
+	padding: 13px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+}
+.btn:hover{
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #E7E7E7;
+	border-radius: 5px;
+	background-color: #E7E7E7 0.3s ease-in-out;
+}
+.card{
+	border: none;
+	opacity: 95%;
+	border-radius: 5px;
+	text-align: center;
+}
+.card-body{
+	border: none;
+	border-radius: 5px;
+	background: linear-gradient(0.0.0.0,95);
+}
+.card-title{
+	text-align: center;
+	font-size: 30px;
+	padding: 10px 0;
+	color: #fff;
+}
+.card-text{
+	padding: 10px 0;
+	margin: 10px;
+	color: #fff;
+}
+.card-title:active{
+	color: #E7E7E7;
+}
+.container-2{
+	padding-top: 117px;
+}
+#main-footer{
+	text-align: center;
+	background-color: #373737;
+	color: #fff;
+	padding: 30px;
+	letter-spacing: 1px;
+}
